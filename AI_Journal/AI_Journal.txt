@@ -10,3 +10,29 @@ Week 05 Jounral Entry
     This week I used AI to brainstorm funtion ideas for the group assignment. 
 Week 06 Journal Entry
     I did not use AI this week
+Week 07 Journal entry
+    This weekl I asked AI to look at my project 1 functions and had it brainstorm possible 
+    classes to incapcilate the functions my group had create in project 2. This was the responce it gave me:
+    1. Document
+        Functions to integrate: 
+            clean_text(),   
+            truncate_snippet(), 
+            count_term_frequency(), 
+            highlight_query_terms()
+    2. SearchQuery
+        Functions to integrate: 
+            normalize_query(), 
+            boolean_retrieval(), 
+            semantic_search()
+    3. SearchIndex
+        Functions to integrate: 
+            build_inverted_index(), 
+            rank_documents(), 
+            filter_sort_paginate_results()
+    4. UserProfile
+        Functions to integrate: 
+            validate_information(), 
+            format_query(), 
+            calculate_user_distance(),
+            parse_user_order(), 
+            process_multiple_order_data()
