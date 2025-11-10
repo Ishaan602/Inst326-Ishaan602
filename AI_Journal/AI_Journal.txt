@@ -36,3 +36,5 @@ Week 07 Journal entry
             calculate_user_distance(),
             parse_user_order(), 
             process_multiple_order_data()
+Week 8 Journal Entry
+    I did not use AI this week        
