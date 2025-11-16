@@ -38,3 +38,5 @@ Week 07 Journal entry
             process_multiple_order_data()
 Week 8 Journal Entry
     I did not use AI this week        
+Week 9 Journal Entry
+    I did not use AI this week
