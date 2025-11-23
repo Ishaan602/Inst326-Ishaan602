@@ -40,3 +40,60 @@ Week 8 Journal Entry
     I did not use AI this week        
 Week 9 Journal Entry
     I did not use AI this week
+Week 10 Journal Entry
+    This week I used AI to brainstrom ideas on how to go about tackeling project 3 and splitting the work up between out 3 memebers
+    Claude gave me this break down:
+    Team Member 1: Document System & Abstract Base Classes
+Primary Responsibilities:
+	•	Abstract Base Class: AbstractDocument (using ABC module)
+	•	Inheritance Hierarchy: AbstractDocument → TextDocument, IndexedDocument, ProcessedDocument
+	•	Polymorphism: Each document type handles text processing differently
+Functions to Integrate:
+	•	clean_text()
+	•	truncate_snippet()
+	•	count_term_frequency()
+	•	highlight_query_terms()
+Key Tasks:
+	•	Design the abstract base class with required abstract methods
+	•	Implement 2-3 derived document classes with specialized behavior
+	•	Ensure proper method overriding with super() calls
+	•	Create polymorphic text processing methods
+
+
+
+Team Member 2: Search System & Polymorphism
+Primary Responsibilities:
+	•	Abstract Base Class: AbstractSearchEngine (using ABC module)
+	•	Inheritance Hierarchy: AbstractSearchEngine → BooleanSearchEngine, RankedSearchEngine, SemanticSearchEngine
+	•	Polymorphism: Each search engine type performs searches differently
+Functions to Integrate:
+	•	normalize_query()
+	•	build_inverted_index()
+	•	boolean_retrieval()
+	•	rank_documents()
+	•	semantic_search()
+	•	filter_sort_paginate_results()
+Key Tasks:
+	•	Design abstract search interface with polymorphic search methods
+	•	Implement different search algorithms in derived classes
+	•	Handle query processing and result ranking
+	•	Demonstrate polymorphic behavior across search types
+
+
+
+Team Member 3: User System & Composition Relationships
+Primary Responsibilities:
+	•	Main Classes: UserProfile, OrderManager, SearchSession
+	•	Composition: SearchSession contains UserProfile + SearchEngine + Document collections
+	•	Integration: Bring together the document and search systems
+Functions to Integrate:
+	•	validate_information()
+	•	format_query()
+	•	calculate_user_distance()
+	•	parse_user_order()
+	•	process_multiple_order_data()
+Key Tasks:
+	•	Design composition relationships between all classes
+	•	Create user management and session handling
+	•	Integrate document and search systems through composition
+	•	Handle user interactions and order processing
