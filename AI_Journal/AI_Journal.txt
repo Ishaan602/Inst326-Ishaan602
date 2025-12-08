@@ -97,3 +97,5 @@ Key Tasks:
 	•	Create user management and session handling
 	•	Integrate document and search systems through composition
 	•	Handle user interactions and order processing
+Week 12 Journal Entry
+	I did not use AI this week
