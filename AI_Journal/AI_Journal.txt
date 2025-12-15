@@ -99,3 +99,5 @@ Key Tasks:
 	•	Handle user interactions and order processing
 Week 12 Journal Entry
 	I did not use AI this week
+Week 13 Journal Entry
+	This week i used AI to helpo organize the final project for submission as well as used it to help create the documentation for some of the clases and methods. I asked claude to take analyze my src files and then cross refrence it with my existing documentation. Then add new documentation where missing and correct any mistakes in the documentation. 
